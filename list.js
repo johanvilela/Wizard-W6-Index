@@ -29,7 +29,8 @@ $(document).ready(function(){
 		$('<a/>', {
 		    class:	`list-group-item ${color}`,
 		    href:	`https://me.wizard.com.br/courses/map/12/lesson/${lessonCode}/select/`,
-		    text:	lessonName
+		    text:	lessonName,
+		    target: '_blank'
 		}).appendTo('#list');	
 	}
 });
